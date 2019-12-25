@@ -38,7 +38,14 @@ const App = () => {
         image={faker.image.avatar()}
       />
 
-      <ApprovalCard></ApprovalCard>
+      <ApprovalCard>
+        <Comment
+          author="zain"
+          text="asowm "
+          time="8:50 am"
+          image={faker.image.avatar}
+        />
+      </ApprovalCard>
     </div>
   );
 };
