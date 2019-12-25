@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
-
+import faker from "faker";
 import Comment from "./commentDetails";
 import ApprovalCard from "./approval";
 
